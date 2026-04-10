@@ -1,0 +1,17 @@
+{
+  "$type": "dimension",
+  "$description": "Semantic spacing aliases. Maps scale primitives to human-readable sizes. Tier 2 of the design system.",
+  "spacing": {
+    "none": { "$value": "{scale.0}",  "$description": "No spacing." },
+    "xxs":  { "$value": "{scale.1}",  "$description": "2px - hairline gap, focus ring offset." },
+    "xs":   { "$value": "{scale.2}",  "$description": "4px - tight inline spacing." },
+    "sm":   { "$value": "{scale.3}",  "$description": "8px - compact padding, small gaps." },
+    "md":   { "$value": "{scale.5}",  "$description": "16px - default padding and gap." },
+    "lg":   { "$value": "{scale.7}",  "$description": "24px - roomy padding, section gaps." },
+    "xl":   { "$value": "{scale.8}",  "$description": "32px - large gaps, grid gutters." },
+    "2xl":  { "$value": "{scale.9}",  "$description": "40px - generous section spacing." },
+    "3xl":  { "$value": "{scale.10}", "$description": "48px - minimum touch target, large containers." },
+    "4xl":  { "$value": "{scale.12}", "$description": "64px - layout insets." },
+    "5xl":  { "$value": "{scale.14}", "$description": "96px - page margins, hero spacing." }
+  }
+}
