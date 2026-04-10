@@ -1,0 +1,17 @@
+{
+  "$type": "color",
+  "$description": "Information/secondary emphasis semantic tokens. 1:1 map to blue primitives.",
+
+  "information": {
+    "50":  { "$value": "{blue.50}" },
+    "100": { "$value": "{blue.100}" },
+    "200": { "$value": "{blue.200}" },
+    "300": { "$value": "{blue.300}" },
+    "400": { "$value": "{blue.400}" },
+    "500": { "$value": "{blue.500}" },
+    "600": { "$value": "{blue.600}" },
+    "700": { "$value": "{blue.700}" },
+    "800": { "$value": "{blue.800}" },
+    "900": { "$value": "{blue.900}" }
+  }
+}

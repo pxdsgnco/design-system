@@ -1,0 +1,19 @@
+{
+  "$type": "color",
+  "$description": "Neutral UI semantic tokens. Maps gray primitives (50-800) plus foundation white/black.",
+
+  "neutral": {
+    "50":  { "$value": "{gray.50}" },
+    "100": { "$value": "{gray.100}" },
+    "200": { "$value": "{gray.200}" },
+    "300": { "$value": "{gray.300}" },
+    "400": { "$value": "{gray.400}" },
+    "500": { "$value": "{gray.500}" },
+    "600": { "$value": "{gray.600}" },
+    "700": { "$value": "{gray.700}" },
+    "800": { "$value": "{gray.800}" },
+    "muted": { "$value": "{gray.400}", "$description": "Subdued/secondary weight — placeholders, subtle borders, muted icons" },
+    "white": { "$value": "{foundation.white}" },
+    "black": { "$value": "{foundation.black}" }
+  }
+}

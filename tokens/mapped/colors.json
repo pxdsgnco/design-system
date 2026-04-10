@@ -1,0 +1,56 @@
+{
+  "$type": "color",
+  "$description": "Mapped color tokens — concrete UI roles referencing alias tokens. Tier 3 of the design system.",
+
+  "text": {
+    "headings":    { "$value": "{neutral.800}" },
+    "body":        { "$value": "{neutral.700}" },
+    "action":      { "$value": "{primary.600}" },
+    "actionHover": { "$value": "{primary.700}" },
+    "placeholder": { "$value": "{neutral.muted}" },
+    "disabled":    { "$value": "{neutral.muted}" },
+    "information": { "$value": "{information.600}" },
+    "warning":     { "$value": "{warning.600}" },
+    "success":     { "$value": "{success.600}" },
+    "error":       { "$value": "{error.600}" },
+    "onAction":    { "$value": "{neutral.white}" }
+  },
+
+  "icon": {
+    "default":     { "$value": "{neutral.700}" },
+    "action":      { "$value": "{primary.600}" },
+    "actionHover": { "$value": "{primary.700}" },
+    "disabled":    { "$value": "{neutral.muted}" },
+    "information": { "$value": "{information.600}" },
+    "warning":     { "$value": "{warning.600}" },
+    "success":     { "$value": "{success.600}" },
+    "error":       { "$value": "{error.600}" },
+    "onAction":    { "$value": "{neutral.white}" }
+  },
+
+  "surface": {
+    "page":        { "$value": "{neutral.white}" },
+    "primary":     { "$value": "{primary.600}" },
+    "default":     { "$value": "{neutral.white}" },
+    "action":      { "$value": "{primary.600}" },
+    "actionHover": { "$value": "{primary.700}" },
+    "success":     { "$value": "{success.50}" },
+    "warning":     { "$value": "{warning.50}" },
+    "information": { "$value": "{information.50}" },
+    "error":       { "$value": "{error.50}" },
+    "disabled":    { "$value": "{neutral.100}" }
+  },
+
+  "border": {
+    "default":     { "$value": "{neutral.200}" },
+    "success":     { "$value": "{success.200}" },
+    "information": { "$value": "{information.200}" },
+    "warning":     { "$value": "{warning.200}" },
+    "error":       { "$value": "{error.200}" },
+    "action":      { "$value": "{primary.600}" },
+    "actionHover": { "$value": "{primary.700}" },
+    "subtle":      { "$value": "{neutral.muted}" },
+    "disabled":    { "$value": "{neutral.200}" },
+    "focus":       { "$value": "{primary.600}" }
+  }
+}

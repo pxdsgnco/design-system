@@ -1,0 +1,17 @@
+{
+  "$type": "color",
+  "$description": "Success/confirmation semantic tokens. 1:1 map to green primitives.",
+
+  "success": {
+    "50":  { "$value": "{green.50}" },
+    "100": { "$value": "{green.100}" },
+    "200": { "$value": "{green.200}" },
+    "300": { "$value": "{green.300}" },
+    "400": { "$value": "{green.400}" },
+    "500": { "$value": "{green.500}" },
+    "600": { "$value": "{green.600}" },
+    "700": { "$value": "{green.700}" },
+    "800": { "$value": "{green.800}" },
+    "900": { "$value": "{green.900}" }
+  }
+}
