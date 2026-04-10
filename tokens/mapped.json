@@ -1,0 +1,315 @@
+{
+  "$description": "Mapped tokens — concrete UI roles referencing alias tokens. Tier 3 of the design system.",
+  "colors": {
+    "$type": "color",
+    "$description": "Mapped color tokens — concrete UI roles referencing alias tokens. Tier 3 of the design system.",
+    "text": {
+      "headings": {
+        "$value": "{colors.neutral.800}"
+      },
+      "body": {
+        "$value": "{colors.neutral.700}"
+      },
+      "action": {
+        "$value": "{colors.primary.600}"
+      },
+      "actionHover": {
+        "$value": "{colors.primary.700}"
+      },
+      "placeholder": {
+        "$value": "{colors.neutral.muted}"
+      },
+      "disabled": {
+        "$value": "{colors.neutral.muted}"
+      },
+      "information": {
+        "$value": "{colors.information.600}"
+      },
+      "warning": {
+        "$value": "{colors.warning.600}"
+      },
+      "success": {
+        "$value": "{colors.success.600}"
+      },
+      "error": {
+        "$value": "{colors.error.600}"
+      },
+      "onAction": {
+        "$value": "{colors.neutral.white}"
+      }
+    },
+    "icon": {
+      "default": {
+        "$value": "{colors.neutral.700}"
+      },
+      "action": {
+        "$value": "{colors.primary.600}"
+      },
+      "actionHover": {
+        "$value": "{colors.primary.700}"
+      },
+      "disabled": {
+        "$value": "{colors.neutral.muted}"
+      },
+      "information": {
+        "$value": "{colors.information.600}"
+      },
+      "warning": {
+        "$value": "{colors.warning.600}"
+      },
+      "success": {
+        "$value": "{colors.success.600}"
+      },
+      "error": {
+        "$value": "{colors.error.600}"
+      },
+      "onAction": {
+        "$value": "{colors.neutral.white}"
+      }
+    },
+    "surface": {
+      "page": {
+        "$value": "{colors.neutral.white}"
+      },
+      "primary": {
+        "$value": "{colors.primary.600}"
+      },
+      "default": {
+        "$value": "{colors.neutral.white}"
+      },
+      "action": {
+        "$value": "{colors.primary.600}"
+      },
+      "actionHover": {
+        "$value": "{colors.primary.700}"
+      },
+      "success": {
+        "$value": "{colors.success.50}"
+      },
+      "warning": {
+        "$value": "{colors.warning.50}"
+      },
+      "information": {
+        "$value": "{colors.information.50}"
+      },
+      "error": {
+        "$value": "{colors.error.50}"
+      },
+      "disabled": {
+        "$value": "{colors.neutral.100}"
+      }
+    },
+    "border": {
+      "default": {
+        "$value": "{colors.neutral.200}"
+      },
+      "success": {
+        "$value": "{colors.success.200}"
+      },
+      "information": {
+        "$value": "{colors.information.200}"
+      },
+      "warning": {
+        "$value": "{colors.warning.200}"
+      },
+      "error": {
+        "$value": "{colors.error.200}"
+      },
+      "action": {
+        "$value": "{colors.primary.600}"
+      },
+      "actionHover": {
+        "$value": "{colors.primary.700}"
+      },
+      "subtle": {
+        "$value": "{colors.neutral.muted}"
+      },
+      "disabled": {
+        "$value": "{colors.neutral.200}"
+      },
+      "focus": {
+        "$value": "{colors.primary.600}"
+      }
+    }
+  },
+  "spacing": {
+    "$type": "dimension",
+    "$description": "Mapped spacing tokens - concrete UI roles referencing alias tokens. Tier 3 of the design system.",
+    "component": {
+      "padding": {
+        "xs": {
+          "$value": "{spacing.spacing.xs}",
+          "$description": "Tight padding - badges, chips, tags."
+        },
+        "sm": {
+          "$value": "{spacing.spacing.sm}",
+          "$description": "Small padding - compact inputs, small buttons."
+        },
+        "md": {
+          "$value": "{spacing.spacing.md}",
+          "$description": "Default padding - standard buttons, inputs, cards."
+        },
+        "lg": {
+          "$value": "{spacing.spacing.lg}",
+          "$description": "Roomy padding - large buttons, section headers."
+        },
+        "xl": {
+          "$value": "{spacing.spacing.xl}",
+          "$description": "Extra padding - hero cards, modals."
+        }
+      },
+      "gap": {
+        "xs": {
+          "$value": "{spacing.spacing.xs}",
+          "$description": "Tight gap - icon + label, inline elements."
+        },
+        "sm": {
+          "$value": "{spacing.spacing.sm}",
+          "$description": "Small gap - form field groups, compact lists."
+        },
+        "md": {
+          "$value": "{spacing.spacing.md}",
+          "$description": "Default gap - card content, stacked fields."
+        },
+        "lg": {
+          "$value": "{spacing.spacing.lg}",
+          "$description": "Wide gap - section spacing inside layouts."
+        }
+      }
+    },
+    "layout": {
+      "section": {
+        "$value": "{spacing.spacing.4xl}",
+        "$description": "Space between page sections."
+      },
+      "page": {
+        "$value": "{spacing.spacing.5xl}",
+        "$description": "Outer page margins and container padding."
+      },
+      "gutter": {
+        "$value": "{spacing.spacing.xl}",
+        "$description": "Grid column gutters."
+      },
+      "inset": {
+        "$value": "{spacing.spacing.lg}",
+        "$description": "Content inset inside panels and containers."
+      }
+    },
+    "interactive": {
+      "focusRingOffset": {
+        "$value": "{spacing.spacing.xxs}",
+        "$description": "Gap between element and focus ring."
+      },
+      "iconSize": {
+        "$value": "{spacing.spacing.md}",
+        "$description": "Default icon dimensions."
+      },
+      "hitTarget": {
+        "$value": "{spacing.spacing.3xl}",
+        "$description": "Minimum touch target size (48px)."
+      }
+    }
+  },
+  "typography": {
+    "$type": "typography",
+    "$description": "Mapped typography tokens — concrete UI roles referencing alias tokens. Tier 3 of the design system.",
+    "text": {
+      "display": {
+        "fontFamily": "{typography.typeFamily.sans}",
+        "fontSize": "{typography.typeScale.5xl.fontSize}",
+        "lineHeight": "{typography.typeScale.5xl.lineHeight}",
+        "fontWeight": "{typography.typeScale.5xl.fontWeight}",
+        "letterSpacing": "{typography.typeScale.5xl.letterSpacing}",
+        "$description": "Hero headlines, landing pages, marketing."
+      },
+      "h1": {
+        "fontFamily": "{typography.typeFamily.sans}",
+        "fontSize": "{typography.typeScale.4xl.fontSize}",
+        "lineHeight": "{typography.typeScale.4xl.lineHeight}",
+        "fontWeight": "{typography.typeScale.4xl.fontWeight}",
+        "letterSpacing": "{typography.typeScale.4xl.letterSpacing}",
+        "$description": "Page titles."
+      },
+      "h2": {
+        "fontFamily": "{typography.typeFamily.sans}",
+        "fontSize": "{typography.typeScale.3xl.fontSize}",
+        "lineHeight": "{typography.typeScale.3xl.lineHeight}",
+        "fontWeight": "{typography.typeScale.3xl.fontWeight}",
+        "letterSpacing": "{typography.typeScale.3xl.letterSpacing}",
+        "$description": "Section headers."
+      },
+      "h3": {
+        "fontFamily": "{typography.typeFamily.sans}",
+        "fontSize": "{typography.typeScale.2xl.fontSize}",
+        "lineHeight": "{typography.typeScale.2xl.lineHeight}",
+        "fontWeight": "{typography.typeScale.2xl.fontWeight}",
+        "letterSpacing": "{typography.typeScale.2xl.letterSpacing}",
+        "$description": "Card headers, modal titles, sub-sections."
+      },
+      "h4": {
+        "fontFamily": "{typography.typeFamily.sans}",
+        "fontSize": "{typography.typeScale.xl.fontSize}",
+        "lineHeight": "{typography.typeScale.xl.lineHeight}",
+        "fontWeight": "{typography.typeScale.xl.fontWeight}",
+        "letterSpacing": "{typography.typeScale.xl.letterSpacing}",
+        "$description": "Smaller headings, sidebar titles."
+      },
+      "bodyLg": {
+        "fontFamily": "{typography.typeFamily.sans}",
+        "fontSize": "{typography.typeScale.lg.fontSize}",
+        "lineHeight": "{typography.typeScale.lg.lineHeight}",
+        "fontWeight": "{typography.typeScale.lg.fontWeight}",
+        "letterSpacing": "{typography.typeScale.lg.letterSpacing}",
+        "$description": "Large body copy, intro paragraphs."
+      },
+      "body": {
+        "fontFamily": "{typography.typeFamily.sans}",
+        "fontSize": "{typography.typeScale.md.fontSize}",
+        "lineHeight": "{typography.typeScale.md.lineHeight}",
+        "fontWeight": "{typography.typeScale.md.fontWeight}",
+        "letterSpacing": "{typography.typeScale.md.letterSpacing}",
+        "$description": "Default paragraph and UI body text."
+      },
+      "bodySm": {
+        "fontFamily": "{typography.typeFamily.sans}",
+        "fontSize": "{typography.typeScale.sm.fontSize}",
+        "lineHeight": "{typography.typeScale.sm.lineHeight}",
+        "fontWeight": "{typography.typeScale.sm.fontWeight}",
+        "letterSpacing": "{typography.typeScale.sm.letterSpacing}",
+        "$description": "Secondary and supporting text."
+      },
+      "caption": {
+        "fontFamily": "{typography.typeFamily.sans}",
+        "fontSize": "{typography.typeScale.xs.fontSize}",
+        "lineHeight": "{typography.typeScale.xs.lineHeight}",
+        "fontWeight": "{typography.typeScale.xs.fontWeight}",
+        "letterSpacing": "{typography.typeScale.xs.letterSpacing}",
+        "$description": "Timestamps, meta info, image captions."
+      },
+      "label": {
+        "fontFamily": "{typography.typeFamily.sans}",
+        "fontSize": "{typography.fontSize.14}",
+        "lineHeight": "{typography.lineHeight.normal}",
+        "fontWeight": "{typography.fontWeight.semibold}",
+        "letterSpacing": "{typography.letterSpacing.normal}",
+        "$description": "Form labels, input labels."
+      },
+      "overline": {
+        "fontFamily": "{typography.typeFamily.sans}",
+        "fontSize": "{typography.fontSize.12}",
+        "lineHeight": "{typography.lineHeight.normal}",
+        "fontWeight": "{typography.fontWeight.semibold}",
+        "letterSpacing": "{typography.letterSpacing.wider}",
+        "$description": "Uppercase overline labels above headings."
+      },
+      "code": {
+        "fontFamily": "{typography.typeFamily.mono}",
+        "fontSize": "{typography.typeScale.sm.fontSize}",
+        "lineHeight": "{typography.typeScale.sm.lineHeight}",
+        "fontWeight": "{typography.typeScale.sm.fontWeight}",
+        "letterSpacing": "{typography.letterSpacing.normal}",
+        "$description": "Code blocks, transaction IDs, account numbers, API keys."
+      }
+    }
+  }
+}
