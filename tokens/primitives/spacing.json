@@ -1,0 +1,21 @@
+{
+  "$type": "dimension",
+  "$description": "Primitive spacing scale - raw values with no semantic meaning. Tier 1 of the design system.",
+  "scale": {
+    "0":  { "$value": "0px" },
+    "1":  { "$value": "2px" },
+    "2":  { "$value": "4px" },
+    "3":  { "$value": "8px" },
+    "4":  { "$value": "12px" },
+    "5":  { "$value": "16px" },
+    "6":  { "$value": "20px" },
+    "7":  { "$value": "24px" },
+    "8":  { "$value": "32px" },
+    "9":  { "$value": "40px" },
+    "10": { "$value": "48px" },
+    "11": { "$value": "56px" },
+    "12": { "$value": "64px" },
+    "13": { "$value": "80px" },
+    "14": { "$value": "96px" }
+  }
+}
