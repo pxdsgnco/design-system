@@ -1,13 +1,7 @@
 {
   "tokenSetOrder": [
-    "primitives/colors",
-    "primitives/spacing",
-    "primitives/typography",
-    "alias/colors",
-    "alias/spacing",
-    "alias/typography",
-    "mapped/colors",
-    "mapped/spacing",
-    "mapped/typography"
+    "primitives",
+    "alias",
+    "mapped"
   ]
 }
