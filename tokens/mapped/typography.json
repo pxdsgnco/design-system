@@ -1,0 +1,103 @@
+{
+  "$type": "typography",
+  "$description": "Mapped typography tokens — concrete UI roles referencing alias tokens. Tier 3 of the design system.",
+
+  "text": {
+    "display": {
+      "fontFamily":    "{typeFamily.sans}",
+      "fontSize":      "{typeScale.5xl.fontSize}",
+      "lineHeight":    "{typeScale.5xl.lineHeight}",
+      "fontWeight":    "{typeScale.5xl.fontWeight}",
+      "letterSpacing": "{typeScale.5xl.letterSpacing}",
+      "$description":  "Hero headlines, landing pages, marketing."
+    },
+    "h1": {
+      "fontFamily":    "{typeFamily.sans}",
+      "fontSize":      "{typeScale.4xl.fontSize}",
+      "lineHeight":    "{typeScale.4xl.lineHeight}",
+      "fontWeight":    "{typeScale.4xl.fontWeight}",
+      "letterSpacing": "{typeScale.4xl.letterSpacing}",
+      "$description":  "Page titles."
+    },
+    "h2": {
+      "fontFamily":    "{typeFamily.sans}",
+      "fontSize":      "{typeScale.3xl.fontSize}",
+      "lineHeight":    "{typeScale.3xl.lineHeight}",
+      "fontWeight":    "{typeScale.3xl.fontWeight}",
+      "letterSpacing": "{typeScale.3xl.letterSpacing}",
+      "$description":  "Section headers."
+    },
+    "h3": {
+      "fontFamily":    "{typeFamily.sans}",
+      "fontSize":      "{typeScale.2xl.fontSize}",
+      "lineHeight":    "{typeScale.2xl.lineHeight}",
+      "fontWeight":    "{typeScale.2xl.fontWeight}",
+      "letterSpacing": "{typeScale.2xl.letterSpacing}",
+      "$description":  "Card headers, modal titles, sub-sections."
+    },
+    "h4": {
+      "fontFamily":    "{typeFamily.sans}",
+      "fontSize":      "{typeScale.xl.fontSize}",
+      "lineHeight":    "{typeScale.xl.lineHeight}",
+      "fontWeight":    "{typeScale.xl.fontWeight}",
+      "letterSpacing": "{typeScale.xl.letterSpacing}",
+      "$description":  "Smaller headings, sidebar titles."
+    },
+    "bodyLg": {
+      "fontFamily":    "{typeFamily.sans}",
+      "fontSize":      "{typeScale.lg.fontSize}",
+      "lineHeight":    "{typeScale.lg.lineHeight}",
+      "fontWeight":    "{typeScale.lg.fontWeight}",
+      "letterSpacing": "{typeScale.lg.letterSpacing}",
+      "$description":  "Large body copy, intro paragraphs."
+    },
+    "body": {
+      "fontFamily":    "{typeFamily.sans}",
+      "fontSize":      "{typeScale.md.fontSize}",
+      "lineHeight":    "{typeScale.md.lineHeight}",
+      "fontWeight":    "{typeScale.md.fontWeight}",
+      "letterSpacing": "{typeScale.md.letterSpacing}",
+      "$description":  "Default paragraph and UI body text."
+    },
+    "bodySm": {
+      "fontFamily":    "{typeFamily.sans}",
+      "fontSize":      "{typeScale.sm.fontSize}",
+      "lineHeight":    "{typeScale.sm.lineHeight}",
+      "fontWeight":    "{typeScale.sm.fontWeight}",
+      "letterSpacing": "{typeScale.sm.letterSpacing}",
+      "$description":  "Secondary and supporting text."
+    },
+    "caption": {
+      "fontFamily":    "{typeFamily.sans}",
+      "fontSize":      "{typeScale.xs.fontSize}",
+      "lineHeight":    "{typeScale.xs.lineHeight}",
+      "fontWeight":    "{typeScale.xs.fontWeight}",
+      "letterSpacing": "{typeScale.xs.letterSpacing}",
+      "$description":  "Timestamps, meta info, image captions."
+    },
+    "label": {
+      "fontFamily":    "{typeFamily.sans}",
+      "fontSize":      "{fontSize.14}",
+      "lineHeight":    "{lineHeight.normal}",
+      "fontWeight":    "{fontWeight.semibold}",
+      "letterSpacing": "{letterSpacing.normal}",
+      "$description":  "Form labels, input labels."
+    },
+    "overline": {
+      "fontFamily":    "{typeFamily.sans}",
+      "fontSize":      "{fontSize.12}",
+      "lineHeight":    "{lineHeight.normal}",
+      "fontWeight":    "{fontWeight.semibold}",
+      "letterSpacing": "{letterSpacing.wider}",
+      "$description":  "Uppercase overline labels above headings."
+    },
+    "code": {
+      "fontFamily":    "{typeFamily.mono}",
+      "fontSize":      "{typeScale.sm.fontSize}",
+      "lineHeight":    "{typeScale.sm.lineHeight}",
+      "fontWeight":    "{typeScale.sm.fontWeight}",
+      "letterSpacing": "{letterSpacing.normal}",
+      "$description":  "Code blocks, transaction IDs, account numbers, API keys."
+    }
+  }
+}
